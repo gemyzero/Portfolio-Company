@@ -1,0 +1,446 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    position: fixed;
+    background-color: white;
+    width:100%;
+    z-index: 100;
+       
+}
+.hero .icon-content  a {
+    font-size: 22px;
+     color: white;
+     margin: 10px;
+}
+.navbar-nav li a{
+
+    font-size: 18px;
+    color: black;
+}
+
+/* start hero */
+.hero h1{
+    color: white;
+    font-weight: 800;
+}
+.chang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    width:100%;
+
+}
+.chang p{
+    border-right: 4px solid white;
+    padding-right:  10px;
+    width: 420px;
+overflow: hidden;
+white-space: nowrap;
+animation: control-width 3s 2s both;
+}
+@keyframes control-width{
+    from{
+
+        width: 80px;
+    }
+    to{
+ width: 450px;
+    }
+
+}
+.hero .row{
+    position: fixed;
+    position: relative;
+top:300px;
+padding: auto;
+}
+
+.header{
+    width: 100%;
+    height: 800px;
+background-image:  url(../imgs/bg.jpg);
+background-position: center;
+background-size: cover;
+}
+
+
+/* strat about */
+.power{
+    padding-right:20px ;
+}
+.img-about img{
+
+    width:90%;
+
+    object-position: center;
+
+    
+}
+ .father{
+    width: 100%;
+
+    height: 25px;
+    border: white 1px solid;
+    margin: 20px;
+    border-radius: 25px;
+   margin-top: 20px;
+
+   box-shadow: 1px 1px 10px gray;
+
+}
+.father .son{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 24px;
+    color: white;
+    padding: 1px;
+}
+ .father .son span{
+    margin-left: 10px;
+    font-size: 16px;
+}
+ .father .son-95{
+    width: 95%;
+}
+ .father .son-80{
+    width: 80%;
+}
+ .father .son-90{
+    width: 90%;
+}
+
+.btn-about button{
+    width: 200px;
+    margin-top: 20px;
+}
+
+
+/* end about */
+
+/* start service */
+.start{
+    text-align: center;
+    }
+    .services{
+        width: 100%;
+        
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    background-color:white;
+    }
+    .services .card{
+        text-align: center;
+        width: 300px;
+        margin: 20px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background-color: white;
+        border: none;
+        box-shadow: 1px 1px 10px black ;
+    }
+    .services .card a{
+        margin-top: 60px;
+    }
+    .services .card i{
+    
+    margin: 10px;
+    font-size: 25px;
+    border: 1px gray solid;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgba(173, 167, 167, 0.541);
+    color: black;
+    transition:1s;
+    }
+    
+    .services .card:hover i{
+    
+        background-color: black;
+        color: white;
+        transform: scale(1.2);
+    }
+
+/* start aria */
+
+    .broduct-aria .button-group  button{
+        border: none;
+        color: black;
+        font-weight: 700;
+    }
+    .aria{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    
+    }
+    .card{
+        border: none;
+        height: 300px;
+        margin: 10px;
+        width: 350px;
+    }    .content-aria{
+        position: relative;
+        bottom: 295px;
+        height: 290px;
+       
+        background-color: white;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        opacity: 0;
+        transition: 0.5s;
+        padding: 10px;
+        margin: auto;
+        width: 96%;
+    }
+    .content-aria h4{
+    
+        font-size: 20px;
+    
+    }
+    
+    
+    .broduct-aria .card-aria .img-aria img{
+        width: 100%;
+        height: 300px;
+        object-position: center;
+        object-fit: cover;
+        margin: auto;
+    
+    
+    }
+    .broduct-aria .card:hover .content-aria{
+        opacity: 1;
+    }
+/* end aria */
+/* start team */
+.info{
+    position: absolute;
+    width: 94%;
+    top: 350px;
+    color: white;
+    padding: 10px;
+    border-radius: 0 10px;
+}
+.info p{
+    font-size: 25px;
+
+}
+.broduct-team{
+    background-color: aliceblue;
+}
+.broduct-team .card-aria .img-team img{
+    width: 100%;
+    height: 350px;
+    object-position: center;
+    object-fit: cover;
+    margin: auto;
+
+    transition: 2.s;
+
+}
+.content-team{
+    position: relative;
+    bottom: 345px;
+    height: 340px;
+   
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    opacity:0 ;
+    transition: 0.5s;
+    padding: 10px;
+    margin: auto;
+    width: 96%;
+}
+.broduct-team .team:hover .content-team{
+    opacity: 1;
+    transform: rotatey(360deg);
+
+}
+.team{
+    height: 500px;
+}
+
+
+
+
+
+/* start countct */
+.cuntact{
+    width: 70%;
+    margin: auto;
+    
+}
+.contact .row{
+    margin-top: 150px;
+}
+
+.info-contact a i{
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.253);
+
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+
+}
+.info-contact:hover a i{
+background-color: black;
+color: white;
+}
+.form-contact{
+    width: 90%;
+    margin: auto;
+}
+.log{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+.log input{
+    width: 50%;
+    background-color: rgba(220, 220, 220, 0.425);
+    
+}
+.cuntact textarea{
+    height: 200px;
+    margin-top: 20px;
+    background-color: rgba(220, 220, 220, 0.425);
+
+}
+.form-contact button{
+width: 200px;
+}
+
+
+/* start foorter */
+
+.footer p{
+    color: gray;
+    text-align: center;
+    padding: 30px;
+}
+/* end foorter */
+
+/* start slider */
+
+
+swiper-container {
+    width: 100%;
+    height: 700px;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    cursor:grab;
+
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.carousel-inner{
+    height: 700px;
+background-color: aliceblue;
+}
+.introduction p{
+
+    color: black;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.introduction h1{
+    position: relative;
+    top: -300px;
+}
+.introduction{
+    position: relative;
+    top: 50px;
+    
+}
+.introduction h6{
+    color: black;
+    font-weight: 600;
+}
+.carousel-item .photo{
+    width: 100%;
+    text-align: center;
+}
+.photo{
+ text-align: center; 
+  display: flex;
+  justify-content: center;
+
+}
+.introduction img{
+width: 100px;
+border-radius: 50%;
+text-align: center;
+margin: 20px;
+
+}
+
+
+ end slider */
+
+
+/* start tell */
+.tell{
+    height: 300px;
+display: flex;
+align-items: center;
+}
+
+.tell .row{
+    width: 80%;
+   margin: auto;
+   margin-top: 100px;
+
+   color: black;
+}
+.tell .tell-costomer h1{
+    font-weight: 800;
+}
+.tell .tell-costomer p{
+    color: gray;
+    font-weight: 600;
+}
+
+.tell .tell-costomer a{
+    font-size: 25px;
+    color: black;
+}
+/* end tell */
